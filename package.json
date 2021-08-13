@@ -6,7 +6,10 @@
     "testWJS": "mocha test/WebDriverJs/Mocha/hello-openfin.js",
     "testWIO": "mocha test/WebDriverIO/Mocha/hello-openfin.js",
     "testWD": "mocha test/WD/Mocha/hello-openfin.js",
-    "testPlaywright": "mocha test/Playwright/Mocha/hello-openfin.js --timeout 5000"
+    "testPlaywright": "mocha test/Playwright/Mocha/hello-openfin.js --timeout 5000",
+    "rtpoc": "mocha test/Playwright/Mocha/reactive-trader.js --timeout 5000",
+    "startRT": "openfin -l -c app.json",
+    "startHO": "openfin -l -c https://cdn.openfin.co/demos/hello/app.json"
   },
   "dependencies": {
     "chai": "^1.9.2",
@@ -17,6 +20,7 @@
     "grunt-mocha-test": "^0.12.2",
     "load-grunt-tasks": "^1.0.0",
     "mocha": "^2.0.1",
+    "openfin-cli": "^3.0.2",
     "playwright": "^1.12.3",
     "selenium-webdriver": "^2.44.0",
     "should": "^4.1.0",

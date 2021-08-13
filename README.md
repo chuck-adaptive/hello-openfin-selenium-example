@@ -1,3 +1,22 @@
+# Reactive Trader POC
+
+This is just some work temporary code.
+
+## Instructions
+
+* clone the repository
+* run `npm install`
+* start reactive trader by running `npm run startRT`
+* run the tests - `npm run rtpoc`
+
+The tests run the code in `test/Playwright/Mocha/reactive-trader.js`. For other test examples, check out `test/Playwright/Mocha/hello-openfin.js`.
+
+If you want to run the `hello-openfin` tests:
+
+* stop all other OpenFin apps (i.e. ReactiveTrader)
+* start Hello OpenFin - `npm run startHO`
+* run the tests - `npm run testPlaywright`
+
 # Hello OpenFin Selenium Example
 
 ## Overview
